@@ -3,7 +3,7 @@ region = "ap-south-1"
 }
 
 resource "aws_instance" "one" {
-ami = "ami-00b8917ae86a424c9"
+ami = "ami-07fb0a5bf9ae299a4"
 instance_type = "t2.micro"
 tags = {
 Name = "nani-server"
